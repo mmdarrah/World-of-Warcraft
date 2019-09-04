@@ -1,7 +1,7 @@
-<nav>
+I"k<nav>
   <div class="logo">
     <!-- <h4>logo</h4> -->
-    <img src="../assets/images/logo.png" alt="">
+    <img src="../" alt="" />
   </div>
   <ul class="nav-links">
     <li><a href="#">Home</a></li>
@@ -14,3 +14,4 @@
     <div class="line3"></div>
   </div>
 </nav>
+:ET

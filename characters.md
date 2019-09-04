@@ -2,6 +2,10 @@
 layout: default
 title: "Characters"
 ---
+
+{% include nav.html %}
+
+
 <div class="page-container">
 {% include card.html
 title="Sargeras"

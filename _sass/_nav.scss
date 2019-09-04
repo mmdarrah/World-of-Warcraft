@@ -1,10 +1,21 @@
 @import url("https://fonts.googleapis.com/css?family=Playfair+Display+SC&display=swap");
 
+$border-radius-size: 14px;
+$cardColor: rgba(255, 5, 5, 0.329);
+$fontColor: yellow;
+$fontFamily: 'Playfair Display SC', serif;
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
+
+body {
+    background: url('https://bnetcmsus-a.akamaihd.net/cms/template_resource/c5/C5WUOB9AEO1U1512085662323.jpg') no-repeat center center fixed ;
+    background-size: cover;
+    font: 14px/20px 'Playfair Display SC', serif;
+  }
 
 nav {
   display: flex;
@@ -12,14 +23,17 @@ nav {
   align-items: center;
   min-height: 8vh;
   font-family: "Playfair Display SC", serif;
-  background-color: #777;
+  background-color: $cardColor;
+  
 }
 
-.logo {
-  color: whitesmoke;
-  text-transform: uppercase;
-  letter-spacing: 5px;
-  font-size: 20px;
+.logo img {
+  // color: whitesmoke;
+  // text-transform: uppercase;
+  // letter-spacing: 5px;
+  // font-size: 20px;
+  width: 250px;
+  height: auto;
 }
 
 .nav-links {
@@ -28,7 +42,7 @@ nav {
   width: 30%;
 
   a {
-    color: whitesmoke;
+    color: $fontColor;
     text-decoration: none;
     letter-spacing: 3px;
     font-weight: bold;
@@ -46,53 +60,55 @@ nav {
   div {
     width: 25px;
     height: 3px;
-    background-color: whitesmoke;
+    background-color: $fontColor;
     margin: 5px;
   }
 }
 
-
-
 @media screen and (max-width: 1024px) {
-    .nav-links {
-        display: flex;
-        justify-content: space-around;
-        width: 50%;
-    }
-
-
+  .nav-links {
+    display: flex;
+    justify-content: space-around;
+    width: 50%;
+  }
 }
 @media screen and (max-width: 768px) {
-    body{
-        overflow: hidden;
-    }
-    .nav-links {
-        position: absolute;
-        right: 0px;
-        height: 92vh;
-        top: 8vh;
-        background-color: #777;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        width: 50%;
-        transform: translateX(100%);
-        transition: transform 0.5s ease-in;
+  body {
+    overflow: hidden;
+  }
+  .nav-links {
+    position: absolute;
+    right: 0px;
+    height: 92vh;
+    top: 8vh;
+    background-color: $cardColor;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    transform: translateX(100%);
+    transition: transform 0.5s ease-in;
+  }
+//   .nav-links li {
+//     opacity: 0;
+//   }
 
+  .burger {
+    display: block;
+  }
 
-    }
-            .nav-links li{
-                opacity: 0;
-            }
+  .nav-active {
+    transform: translateX(0%);
+  }
 
-            .burger{
-                display: block;
-            }
-
-            .nav-active{
-                transform: translateX(0%)
-            }
-
+//   @keyframes navLinkFade {
+//     from {
+//       opacity: 0;
+//       transform: translateX(50px);
+//     }
+//     to {
+//       opacity: 1;
+//       transform: translateX(0px);
+//     }
+//   }
 }
-
-
