@@ -1,17 +1,17 @@
 @import url("https://fonts.googleapis.com/css?family=Playfair+Display+SC&display=swap");
 body { background: #ffffff; color: #000000; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"; }
 
-*, *:before, *:after { box-sizing: border-box; }
+*, *:before, *:after { box-sizing: border-box; margin: 0; padding: 0; }
 
-body { background: url("https://bnetcmsus-a.akamaihd.net/cms/template_resource/c5/C5WUOB9AEO1U1512085662323.jpg") no-repeat center center fixed; background-size: cover; font: 14px/20px 'Playfair Display SC', serif; }
+body { background: url("https://bnetcmsus-a.akamaihd.net/cms/template_resource/c5/C5WUOB9AEO1U1512085662323.jpg") no-repeat center center fixed; background-size: cover; font: 14px/20px 'Playfair Display SC', serif; margin: 0 150px; }
 
-.card-container { margin: auto; width: 600px; text-align: center; }
+.card-container { margin: auto; text-align: center; }
 
 .wrapper { padding-top: 40px; padding-bottom: 40px; }
 
 .wrapper:focus { outline: 0; }
 
-.card { background: rgba(255, 5, 5, 0.192); width: 300px; display: inline-block; margin: auto; border-radius: 19px; position: relative; text-align: center; box-shadow: -1px 15px 30px -12px black; z-index: 9999; }
+.card { background: rgba(255, 5, 5, 0.329); width: 300px; display: inline-block; margin: auto; border-radius: 19px; position: relative; text-align: center; box-shadow: -1px 15px 30px -12px black; z-index: 9999; }
 
 .card__image { position: relative; height: 230px; margin-bottom: 35px; border-top-left-radius: 14px; border-top-right-radius: 14px; }
 
@@ -25,7 +25,7 @@ body { background: url("https://bnetcmsus-a.akamaihd.net/cms/template_resource/c
 
 .card-description { padding: 20px; margin-bottom: 10px; color: yellow; }
 
-.card__unit-stats { background: rgba(255, 5, 5, 0.192); color: yellow; font-weight: 700; border-bottom-left-radius: 14px; border-bottom-right-radius: 14px; }
+.card__unit-stats { background: rgba(255, 5, 5, 0.329); color: yellow; font-weight: 700; border-bottom-left-radius: 14px; border-bottom-right-radius: 14px; }
 
 .card__unit-stats .one-third { width: 33%; float: left; padding: 20px 15px; border-right: 1px solid rgba(108, 106, 247, 0.322); }
 
@@ -37,6 +37,4 @@ body { background: url("https://bnetcmsus-a.akamaihd.net/cms/template_resource/c
 
 .clearfix:after { visibility: hidden; display: block; font-size: 0; content: " "; clear: both; height: 0; }
 
-.swiper-container { width: 600px; height: 300px; }
-
-/*# sourceMappingURL=main.css.map */
+.page-container { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); grid-gap: 30px; justify-content: center; }
