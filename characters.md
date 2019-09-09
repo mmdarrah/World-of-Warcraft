@@ -1,12 +1,15 @@
 ---
-layout: default
+layout: nav-hero
 title: "Characters"
 ---
 
-{% include nav.html %}
 
 
-<div class="page-container">
+
+
+
+
+
 {% include card.html
 title="Sargeras"
 imgSrc="./assets/images/sargeras.png"
@@ -14,7 +17,7 @@ imgSrc="./assets/images/sargeras.png"
  power="70"
  speed="30"
  cost="80"
- level="3"
+ level="22222"
 %}
 {% include card.html
 title="Sargeras"
@@ -23,7 +26,7 @@ imgSrc="./assets/images/sargeras.png"
  power="70"
  speed="30"
  cost="80"
- level="3"
+ level="22222"
 %}
 {% include card.html
 title="Sargeras"
@@ -32,7 +35,7 @@ imgSrc="./assets/images/sargeras.png"
  power="70"
  speed="30"
  cost="80"
- level="3"
+ level="2"
 %}
 {% include card.html
 title="Sargeras"
@@ -41,7 +44,7 @@ imgSrc="./assets/images/sargeras.png"
  power="70"
  speed="30"
  cost="80"
- level="3"
+ level="55"
 %}
 {% include card.html
 title="Sargeras"
@@ -50,7 +53,7 @@ imgSrc="./assets/images/sargeras.png"
  power="70"
  speed="30"
  cost="80"
- level="3"
+ level="55"
 %}
 {% include card.html
 title="Sargeras"
@@ -59,8 +62,9 @@ imgSrc="./assets/images/sargeras.png"
  power="70"
  speed="30"
  cost="80"
- level="3"
+ level="55"
 %}
 
 
-</div>
+
+

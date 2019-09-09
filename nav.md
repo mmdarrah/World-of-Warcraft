@@ -4,4 +4,6 @@ title: "Nav"
 ---
 
 
-{% include nav.html %}
+<!-- {% include nav.html %} -->
+
+<!-- {% include hero-image.html %} -->
