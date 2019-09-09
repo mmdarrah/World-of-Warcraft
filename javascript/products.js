@@ -15,8 +15,8 @@ let place3 = document.getElementById("skeeve");
 let place4 = document.getElementById("grom");
 let place5 = document.getElementById("jaina");
 
-place1.innerHTML = blackKnight.name + ", " + blackKnight.price;
-place2.innerHTML = sylvana.name + ", " + sylvana.price;
-place3.innerHTML = skeeve.name + ", " + skeeve.price;
-place4.innerHTML = grom.name + ", " + grom.price;
-place5.innerHTML = jaina.name + ", " + jaina.price;
+place1.textContent = blackKnight.name + ", " + blackKnight.price;
+place2.textContent = sylvana.name + ", " + sylvana.price;
+place3.textContent = skeeve.name + ", " + skeeve.price;
+place4.textContent = grom.name + ", " + grom.price;
+place5.textContent = jaina.name + ", " + jaina.price;

@@ -19,6 +19,7 @@ body {
     color: $bodyColor;
     max-width: 2000px;
     overflow-x: hidden;
+
 }
 #header{
   background-image: url(/images/shop_header_new.jpg);
@@ -43,13 +44,11 @@ body {
   }
 }
 nav{
-
   position: relative;
   margin-top: -57px;
   display: flex;
   justify-content: space-evenly;
   background-color: rgba(150, 0, 0, 0.329);
-  
   word-spacing: 75px;
 
   ul{
@@ -75,19 +74,22 @@ nav{
   }
 }
 main{
-  display: flex;
+  width: 100%;
   flex-wrap: wrap;
+  h2{
+    background-color: rgba(86, 73, 73, 0.530);
+    color: $bodyColor;
+    text-align: center;
+  }
 
-  #figurines, #shirts, #towels, #books{
+  #figurines, #shirts, #towels, #books, #mugs{
+    display: flex;
+    align-items: end;
     margin-top: 10px;
     margin-bottom: 10px;
-    border-bottom: 2px solid black;
+    border-bottom: 2px solid $headerBGcolor;
     position: relative;
-    text-align: center;
 
-    h2{
-      color: $bodyColor;
-    }
   }
     
     div{
@@ -98,14 +100,15 @@ main{
         background-color: black;
         position: absolute;
         font-size: .7em;
+        margin: 2px;
       }
+
+
         img{
-          align-content: center;
           margin: 5px;
-          width: 25%;
+          width: 75%;
           background-color: rgba(86, 73, 73, 0.329);
           border-top: 4px solid $headerBGcolor;
           border-bottom: 4px solid $headerBGcolor;
         }
       }
-  
