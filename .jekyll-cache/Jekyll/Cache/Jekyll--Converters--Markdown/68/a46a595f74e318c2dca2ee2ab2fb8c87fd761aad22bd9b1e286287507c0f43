@@ -1,0 +1,176 @@
+I"&<div class="card-container">
+  
+        <div class="wrapper">
+          <div class="card">
+            <div class="card__image card__image">
+              <img class="img" src="./assets/images/png/sargeras.png" />
+            </div>
+            <div class="card__level">Level -4-</div>
+            <div class="card-title">Sargeras</div>
+            <div class="card-description">A titan and the creator and leader of the Burning Legion.</div>
+      
+
+            <div class="card__unit-stats card__unit-stats clearfix">
+              <div class="one-third">
+                <div class="stat">70</div>
+                <div class="stat-value">Power</div>
+              </div>
+      
+              <div class="one-third">
+                <div class="stat">30</div>
+                <div class="stat-value">Speed</div>
+              </div>
+      
+              <div class="one-third no-border">
+                <div class="stat">80</div>
+                <div class="stat-value">Cost</div>
+              </div>
+            </div>
+
+          </div>
+
+         
+      </div>
+</div>
+
+<div class="card-container">
+  
+        <div class="wrapper">
+          <div class="card">
+            <div class="card__image card__image">
+              <img class="img" src="./assets/images/png/Mankrik.png" />
+            </div>
+            <div class="card__level">Level -3-</div>
+            <div class="card-title">Mankrik</div>
+            <div class="card-description">A titan and the creator and leader of the Burning Legion.</div>
+      
+
+            <div class="card__unit-stats card__unit-stats clearfix">
+              <div class="one-third">
+                <div class="stat">54</div>
+                <div class="stat-value">Power</div>
+              </div>
+      
+              <div class="one-third">
+                <div class="stat">13</div>
+                <div class="stat-value">Speed</div>
+              </div>
+      
+              <div class="one-third no-border">
+                <div class="stat">55</div>
+                <div class="stat-value">Cost</div>
+              </div>
+            </div>
+
+          </div>
+
+         
+      </div>
+</div>
+
+<div class="card-container">
+  
+        <div class="wrapper">
+          <div class="card">
+            <div class="card__image card__image">
+              <img class="img" src="./assets/images/png/Maiev-Shadowsong.png" />
+            </div>
+            <div class="card__level">Level -7-</div>
+            <div class="card-title">Maiev Shadowsong</div>
+            <div class="card-description">A titan and the creator and leader of the Burning Legion.</div>
+      
+
+            <div class="card__unit-stats card__unit-stats clearfix">
+              <div class="one-third">
+                <div class="stat">85</div>
+                <div class="stat-value">Power</div>
+              </div>
+      
+              <div class="one-third">
+                <div class="stat">90</div>
+                <div class="stat-value">Speed</div>
+              </div>
+      
+              <div class="one-third no-border">
+                <div class="stat">87</div>
+                <div class="stat-value">Cost</div>
+              </div>
+            </div>
+
+          </div>
+
+         
+      </div>
+</div>
+
+<div class="card-container">
+  
+        <div class="wrapper">
+          <div class="card">
+            <div class="card__image card__image">
+              <img class="img" src="./assets/images/png/Lord-Serpentis.png" />
+            </div>
+            <div class="card__level">Level -2-</div>
+            <div class="card-title">Lord Serpentis</div>
+            <div class="card-description">A titan and the creator and leader of the Burning Legion.</div>
+      
+
+            <div class="card__unit-stats card__unit-stats clearfix">
+              <div class="one-third">
+                <div class="stat">60</div>
+                <div class="stat-value">Power</div>
+              </div>
+      
+              <div class="one-third">
+                <div class="stat">77</div>
+                <div class="stat-value">Speed</div>
+              </div>
+      
+              <div class="one-third no-border">
+                <div class="stat">35</div>
+                <div class="stat-value">Cost</div>
+              </div>
+            </div>
+
+          </div>
+
+         
+      </div>
+</div>
+
+<div class="card-container">
+  
+        <div class="wrapper">
+          <div class="card">
+            <div class="card__image card__image">
+              <img class="img" src="./assets/images/png/Lord-Serpentis.png" />
+            </div>
+            <div class="card__level">Level -2-</div>
+            <div class="card-title">Kael'thas Sunstrider</div>
+            <div class="card-description">A titan and the creator and leader of the Burning Legion.</div>
+      
+
+            <div class="card__unit-stats card__unit-stats clearfix">
+              <div class="one-third">
+                <div class="stat">60</div>
+                <div class="stat-value">Power</div>
+              </div>
+      
+              <div class="one-third">
+                <div class="stat">77</div>
+                <div class="stat-value">Speed</div>
+              </div>
+      
+              <div class="one-third no-border">
+                <div class="stat">35</div>
+                <div class="stat-value">Cost</div>
+              </div>
+            </div>
+
+          </div>
+
+         
+      </div>
+</div>
+
+:ET

@@ -32,11 +32,13 @@ navSlide();
       if (isElementInViewport(card)) {
 
         card.classList.add("card-visible");
-
+        
+        
 
       } else {
 
         card.classList.remove("card-visible");
+        
       }
     });
   }
@@ -93,4 +95,122 @@ const scene = new ScrollMagic.Scene({
 // .addIndicators()
 // .setPin('.animation')
 // .addTo(controller)
+
+
+// let removeNumbers = (id) => {
+
+//  // console.log(id)
+
+//  let stats = document.getElementsByClassName(`${id}`);
+//  // console.log(stats)
+ 
+//    Array.prototype.forEach.call(stats, function(stat) {
+//      // console.log(stat);
+//      // let myValue = parseInt(stat.innerHTML);
+//      let myValue = parseInt(stat.getAttribute("statValue"));
+//      console.log(myValue);
+     
+//    // var power = document.getElementsByClassName('power');
+   
+//    // console.log(power)
+   
+//    var power = document.getElementsByClassName(`power ${id}`);
+//    var speed = document.getElementsByClassName(`speed ${id}`);
+//    var cost = document.getElementsByClassName(`cost ${id}`);
+   
+//    anime({
+//      targets: power,
+//      innerHTML: [0, 0],
+//      easing: 'linear',
+//      round: 10,
+//      duration: 1000,
+//      scale: 1.5
+//    });
+//    anime({
+//      targets: speed,
+//      innerHTML: [0, 0],
+//      easing: 'linear',
+//      round: 10,
+//      duration: 1000,
+//      scale: 1.5 
+//    });
+//    anime({
+//      targets: cost,
+//      innerHTML: [0, 0],
+//      easing: 'linear',
+//      round: 10,
+//      duration: 1000,
+//      scale: 1.5
+//    });
+   
+   
+   
+   
+//    });
+ 
+  
+// }
+
+
+
+let numbers = (id) => {
+  // console.log(id)
+
+  let stats = document.getElementsByClassName(`${id}`);
+// console.log(stats)
+
+  Array.prototype.forEach.call(stats, function(stat) {
+    // console.log(stat);
+    // let myValue = parseInt(stat.innerHTML);
+    let myValue = parseInt(stat.getAttribute("statValue"));
+    console.log(myValue);
+    
+  // var power = document.getElementsByClassName('power');
+  
+  // console.log(power)
+  
+  var power = document.getElementsByClassName(`power ${id}`);
+  var speed = document.getElementsByClassName(`speed ${id}`);
+  var cost = document.getElementsByClassName(`cost ${id}`);
+  
+  anime({
+    targets: power,
+    innerHTML: [0, myValue],
+    easing: 'linear',
+    round: 10,
+    duration: 1000,
+    scale: 1.5
+  });
+  anime({
+    targets: speed,
+    innerHTML: [0, myValue],
+    easing: 'linear',
+    round: 10,
+    duration: 1000,
+    scale: 1.5 
+  });
+  anime({
+    targets: cost,
+    innerHTML: [0, myValue],
+    easing: 'linear',
+    round: 10,
+    duration: 1000,
+    scale: 1.5
+  });
+  
+  
+  
+  
+  });
+
+
+
+}
+
+
+
+
+
+
+
 

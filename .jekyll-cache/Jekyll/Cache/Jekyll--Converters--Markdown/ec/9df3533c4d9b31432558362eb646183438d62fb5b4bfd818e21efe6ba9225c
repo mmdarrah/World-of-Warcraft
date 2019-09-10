@@ -1,0 +1,325 @@
+I"S0<p>&lt;div class=”card-container” id=”1” ‘&gt;</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>    &lt;div class="wrapper"&gt;
+      &lt;div class="card"&gt;
+        &lt;div class="card__image card__image"&gt;
+          &lt;img class="img" src="./assets/images/png/sargeras.png"&gt;
+        &lt;/div&gt;
+        &lt;div class="card__level"&gt;Level -4-&lt;/div&gt;
+        &lt;div class="card-title"&gt;Sargeras&lt;/div&gt;
+        &lt;div class="card-description"&gt;A titan and the creator and leader of the Burning Legion.&lt;/div&gt;
+  
+
+        &lt;div class="card__unit-stats card__unit-stats clearfix"&gt;
+          &lt;div class="one-third"&gt;
+            &lt;div class="stat power 1" statValue=70&gt;&lt;/div&gt;
+            &lt;div class="stat-value"&gt;Power&lt;/div&gt;
+          &lt;/div&gt;
+  
+          &lt;div class="one-third"&gt;
+            &lt;div class="stat speed 1" statValue=30&gt;&lt;/div&gt;
+            &lt;div class="stat-value"&gt;Speed&lt;/div&gt;
+          &lt;/div&gt;
+  
+          &lt;div class="one-third no-border"&gt;
+            &lt;div class="stat cost 1" statValue=80&gt;&lt;/div&gt;
+            &lt;div class="stat-value"&gt;Cost&lt;/div&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+
+      &lt;/div&gt;
+
+     
+  &lt;/div&gt;
+</code></pre></div></div>
+<p>&lt;/div&gt;</p>
+
+<p>&lt;div class=”card-container” id=”2” ‘&gt;</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>    &lt;div class="wrapper"&gt;
+      &lt;div class="card"&gt;
+        &lt;div class="card__image card__image"&gt;
+          &lt;img class="img" src="./assets/images/png/Mankrik.png"&gt;
+        &lt;/div&gt;
+        &lt;div class="card__level"&gt;Level -3-&lt;/div&gt;
+        &lt;div class="card-title"&gt;Mankrik&lt;/div&gt;
+        &lt;div class="card-description"&gt;A titan and the creator and leader of the Burning Legion.&lt;/div&gt;
+  
+
+        &lt;div class="card__unit-stats card__unit-stats clearfix"&gt;
+          &lt;div class="one-third"&gt;
+            &lt;div class="stat power 2" statValue=54&gt;&lt;/div&gt;
+            &lt;div class="stat-value"&gt;Power&lt;/div&gt;
+          &lt;/div&gt;
+  
+          &lt;div class="one-third"&gt;
+            &lt;div class="stat speed 2" statValue=13&gt;&lt;/div&gt;
+            &lt;div class="stat-value"&gt;Speed&lt;/div&gt;
+          &lt;/div&gt;
+  
+          &lt;div class="one-third no-border"&gt;
+            &lt;div class="stat cost 2" statValue=55&gt;&lt;/div&gt;
+            &lt;div class="stat-value"&gt;Cost&lt;/div&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+
+      &lt;/div&gt;
+
+     
+  &lt;/div&gt;
+</code></pre></div></div>
+<p>&lt;/div&gt;</p>
+
+<p>&lt;div class=”card-container” id=”3” ‘&gt;</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>    &lt;div class="wrapper"&gt;
+      &lt;div class="card"&gt;
+        &lt;div class="card__image card__image"&gt;
+          &lt;img class="img" src="./assets/images/png/Maiev-Shadowsong.png"&gt;
+        &lt;/div&gt;
+        &lt;div class="card__level"&gt;Level -7-&lt;/div&gt;
+        &lt;div class="card-title"&gt;Maiev&lt;/div&gt;
+        &lt;div class="card-description"&gt;A titan and the creator and leader of the Burning Legion.&lt;/div&gt;
+  
+
+        &lt;div class="card__unit-stats card__unit-stats clearfix"&gt;
+          &lt;div class="one-third"&gt;
+            &lt;div class="stat power 3" statValue=85&gt;&lt;/div&gt;
+            &lt;div class="stat-value"&gt;Power&lt;/div&gt;
+          &lt;/div&gt;
+  
+          &lt;div class="one-third"&gt;
+            &lt;div class="stat speed 3" statValue=90&gt;&lt;/div&gt;
+            &lt;div class="stat-value"&gt;Speed&lt;/div&gt;
+          &lt;/div&gt;
+  
+          &lt;div class="one-third no-border"&gt;
+            &lt;div class="stat cost 3" statValue=87&gt;&lt;/div&gt;
+            &lt;div class="stat-value"&gt;Cost&lt;/div&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+
+      &lt;/div&gt;
+
+     
+  &lt;/div&gt;
+</code></pre></div></div>
+<p>&lt;/div&gt;</p>
+
+<p>&lt;div class=”card-container” id=”4” ‘&gt;</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>    &lt;div class="wrapper"&gt;
+      &lt;div class="card"&gt;
+        &lt;div class="card__image card__image"&gt;
+          &lt;img class="img" src="./assets/images/png/Lord-Serpentis.png"&gt;
+        &lt;/div&gt;
+        &lt;div class="card__level"&gt;Level -2-&lt;/div&gt;
+        &lt;div class="card-title"&gt;L Serpentis&lt;/div&gt;
+        &lt;div class="card-description"&gt;A titan and the creator and leader of the Burning Legion.&lt;/div&gt;
+  
+
+        &lt;div class="card__unit-stats card__unit-stats clearfix"&gt;
+          &lt;div class="one-third"&gt;
+            &lt;div class="stat power 4" statValue=60&gt;&lt;/div&gt;
+            &lt;div class="stat-value"&gt;Power&lt;/div&gt;
+          &lt;/div&gt;
+  
+          &lt;div class="one-third"&gt;
+            &lt;div class="stat speed 4" statValue=77&gt;&lt;/div&gt;
+            &lt;div class="stat-value"&gt;Speed&lt;/div&gt;
+          &lt;/div&gt;
+  
+          &lt;div class="one-third no-border"&gt;
+            &lt;div class="stat cost 4" statValue=35&gt;&lt;/div&gt;
+            &lt;div class="stat-value"&gt;Cost&lt;/div&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+
+      &lt;/div&gt;
+
+     
+  &lt;/div&gt;
+</code></pre></div></div>
+<p>&lt;/div&gt;</p>
+
+<p>&lt;div class=”card-container” id=”5” ‘&gt;</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>    &lt;div class="wrapper"&gt;
+      &lt;div class="card"&gt;
+        &lt;div class="card__image card__image"&gt;
+          &lt;img class="img" src="./assets/images/png/Kael'thas-Sunstrider.png"&gt;
+        &lt;/div&gt;
+        &lt;div class="card__level"&gt;Level -10-&lt;/div&gt;
+        &lt;div class="card-title"&gt;Kael'thas&lt;/div&gt;
+        &lt;div class="card-description"&gt;A titan and the creator and leader of the Burning Legion.&lt;/div&gt;
+  
+
+        &lt;div class="card__unit-stats card__unit-stats clearfix"&gt;
+          &lt;div class="one-third"&gt;
+            &lt;div class="stat power 5" statValue=78&gt;&lt;/div&gt;
+            &lt;div class="stat-value"&gt;Power&lt;/div&gt;
+          &lt;/div&gt;
+  
+          &lt;div class="one-third"&gt;
+            &lt;div class="stat speed 5" statValue=12&gt;&lt;/div&gt;
+            &lt;div class="stat-value"&gt;Speed&lt;/div&gt;
+          &lt;/div&gt;
+  
+          &lt;div class="one-third no-border"&gt;
+            &lt;div class="stat cost 5" statValue=96&gt;&lt;/div&gt;
+            &lt;div class="stat-value"&gt;Cost&lt;/div&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+
+      &lt;/div&gt;
+
+     
+  &lt;/div&gt;
+</code></pre></div></div>
+<p>&lt;/div&gt;</p>
+
+<p>&lt;div class=”card-container” id=”6” ‘&gt;</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>    &lt;div class="wrapper"&gt;
+      &lt;div class="card"&gt;
+        &lt;div class="card__image card__image"&gt;
+          &lt;img class="img" src="./assets/images/png/Jaina-Proudmoore.png"&gt;
+        &lt;/div&gt;
+        &lt;div class="card__level"&gt;Level -10-&lt;/div&gt;
+        &lt;div class="card-title"&gt;Jaina Proudmoore&lt;/div&gt;
+        &lt;div class="card-description"&gt;A titan and the creator and leader of the Burning Legion.&lt;/div&gt;
+  
+
+        &lt;div class="card__unit-stats card__unit-stats clearfix"&gt;
+          &lt;div class="one-third"&gt;
+            &lt;div class="stat power 6" statValue=78&gt;&lt;/div&gt;
+            &lt;div class="stat-value"&gt;Power&lt;/div&gt;
+          &lt;/div&gt;
+  
+          &lt;div class="one-third"&gt;
+            &lt;div class="stat speed 6" statValue=12&gt;&lt;/div&gt;
+            &lt;div class="stat-value"&gt;Speed&lt;/div&gt;
+          &lt;/div&gt;
+  
+          &lt;div class="one-third no-border"&gt;
+            &lt;div class="stat cost 6" statValue=96&gt;&lt;/div&gt;
+            &lt;div class="stat-value"&gt;Cost&lt;/div&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+
+      &lt;/div&gt;
+
+     
+  &lt;/div&gt;
+</code></pre></div></div>
+<p>&lt;/div&gt;</p>
+
+<p>&lt;div class=”card-container” id=”7” ‘&gt;</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>    &lt;div class="wrapper"&gt;
+      &lt;div class="card"&gt;
+        &lt;div class="card__image card__image"&gt;
+          &lt;img class="img" src="./assets/images/png/Illidan-Stormrage.png"&gt;
+        &lt;/div&gt;
+        &lt;div class="card__level"&gt;Level -10-&lt;/div&gt;
+        &lt;div class="card-title"&gt;Illidan Stormrage&lt;/div&gt;
+        &lt;div class="card-description"&gt;A titan and the creator and leader of the Burning Legion.&lt;/div&gt;
+  
+
+        &lt;div class="card__unit-stats card__unit-stats clearfix"&gt;
+          &lt;div class="one-third"&gt;
+            &lt;div class="stat power 7" statValue=78&gt;&lt;/div&gt;
+            &lt;div class="stat-value"&gt;Power&lt;/div&gt;
+          &lt;/div&gt;
+  
+          &lt;div class="one-third"&gt;
+            &lt;div class="stat speed 7" statValue=12&gt;&lt;/div&gt;
+            &lt;div class="stat-value"&gt;Speed&lt;/div&gt;
+          &lt;/div&gt;
+  
+          &lt;div class="one-third no-border"&gt;
+            &lt;div class="stat cost 7" statValue=96&gt;&lt;/div&gt;
+            &lt;div class="stat-value"&gt;Cost&lt;/div&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+
+      &lt;/div&gt;
+
+     
+  &lt;/div&gt;
+</code></pre></div></div>
+<p>&lt;/div&gt;</p>
+
+<p>&lt;div class=”card-container” id=”8” ‘&gt;</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>    &lt;div class="wrapper"&gt;
+      &lt;div class="card"&gt;
+        &lt;div class="card__image card__image"&gt;
+          &lt;img class="img" src="./assets/images/png/Chen-Stormstout.png"&gt;
+        &lt;/div&gt;
+        &lt;div class="card__level"&gt;Level -10-&lt;/div&gt;
+        &lt;div class="card-title"&gt;Chen Stormstout&lt;/div&gt;
+        &lt;div class="card-description"&gt;A titan and the creator and leader of the Burning Legion.&lt;/div&gt;
+  
+
+        &lt;div class="card__unit-stats card__unit-stats clearfix"&gt;
+          &lt;div class="one-third"&gt;
+            &lt;div class="stat power 8" statValue=78&gt;&lt;/div&gt;
+            &lt;div class="stat-value"&gt;Power&lt;/div&gt;
+          &lt;/div&gt;
+  
+          &lt;div class="one-third"&gt;
+            &lt;div class="stat speed 8" statValue=12&gt;&lt;/div&gt;
+            &lt;div class="stat-value"&gt;Speed&lt;/div&gt;
+          &lt;/div&gt;
+  
+          &lt;div class="one-third no-border"&gt;
+            &lt;div class="stat cost 8" statValue=96&gt;&lt;/div&gt;
+            &lt;div class="stat-value"&gt;Cost&lt;/div&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+
+      &lt;/div&gt;
+
+     
+  &lt;/div&gt;
+</code></pre></div></div>
+<p>&lt;/div&gt;</p>
+
+<p>&lt;div class=”card-container” id=”9” ‘&gt;</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>    &lt;div class="wrapper"&gt;
+      &lt;div class="card"&gt;
+        &lt;div class="card__image card__image"&gt;
+          &lt;img class="img" src="./assets/images/png/Voljin.png"&gt;
+        &lt;/div&gt;
+        &lt;div class="card__level"&gt;Level -10-&lt;/div&gt;
+        &lt;div class="card-title"&gt;Vol’jin&lt;/div&gt;
+        &lt;div class="card-description"&gt;A titan and the creator and leader of the Burning Legion.&lt;/div&gt;
+  
+
+        &lt;div class="card__unit-stats card__unit-stats clearfix"&gt;
+          &lt;div class="one-third"&gt;
+            &lt;div class="stat power 9" statValue=78&gt;&lt;/div&gt;
+            &lt;div class="stat-value"&gt;Power&lt;/div&gt;
+          &lt;/div&gt;
+  
+          &lt;div class="one-third"&gt;
+            &lt;div class="stat speed 9" statValue=12&gt;&lt;/div&gt;
+            &lt;div class="stat-value"&gt;Speed&lt;/div&gt;
+          &lt;/div&gt;
+  
+          &lt;div class="one-third no-border"&gt;
+            &lt;div class="stat cost 9" statValue=96&gt;&lt;/div&gt;
+            &lt;div class="stat-value"&gt;Cost&lt;/div&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+
+      &lt;/div&gt;
+
+     
+  &lt;/div&gt;
+</code></pre></div></div>
+<p>&lt;/div&gt;</p>
+
+:ET

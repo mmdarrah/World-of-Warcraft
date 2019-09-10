@@ -95,19 +95,13 @@ nav {
   left: 43rem;
   } 
 
-  // .frame{
-//   width: 100%;
-//   height: 8rem;
-//   position:absolute;
-//   top: 90vh;
-// }
-
-
+  
 
 @media screen and (max-width: 1024px) {
 
   body{
     overflow-x:hidden;
+    max-width: 100%;
   }
   .nav-links {
     display: flex;
@@ -118,23 +112,24 @@ nav {
     top: 0rem;
   }
 
-  .nav-links {
-    position: absolute;
-    right: 0px;
-    height: 100vh;
-    top: 20vh;
-    background-color: $cardColor;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 100%;
-    transform: translateX(100%);
-    transition: transform 0.5s ease-in;
-  }
+  // .nav-links {
+  //   position: absolute;
+  //   right: 0px;
+  //   height: 100vh;
+  //   top: 20vh;
+  //   background-color: $cardColor;
+  //   display: flex;
+  //   flex-direction: column;
+  //   align-items: center;
+  //   width: 100%;
+  //   transform: translateX(100%);
+  //   transition: transform 0.5s ease-in;
+  // }
 }
 @media screen and (max-width: 768px) {
   body{
-    overflow-x:hidden;
+    overflow-x:hidden ;
+    max-width: 100%;
   }
 
   nav {
@@ -169,7 +164,7 @@ nav {
     flex-direction: column;
     align-items: center;
     width: 100%;
-    transform: translateX(100%);
+    // transform: translateX(100%);
     transition: transform 0.5s ease-in;
   }
   .nav-links li {
