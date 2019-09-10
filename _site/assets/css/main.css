@@ -3,11 +3,11 @@ html { scroll-behavior: smooth; background: url("https://bnetcmsus-a.akamaihd.ne
 
 body { display: flex; flex-wrap: wrap; flex-direction: column; font-family: 'Playfair Display SC', serif; color: #ebc035; max-width: 2000px; overflow-x: hidden; }
 
-#header { background-image: url(/images/shop_header_new.jpg); background-position: top; position: relative; width: 100vw; height: 80vh; margin: 0; top: -57px; left: -8px; background-size: cover; }
+#header { background-image: url(/images/shop_header_new.jpg); background-position: top; position: relative; width: 100vw; height: 80vh; margin: 0; top: -35px; left: -8px; background-size: cover; }
 
 #header span { background-color: rgba(150, 0, 0, 0.329); position: absolute; top: 50%; width: 100%; border-radius: 0%; text-align: center; font-size: 3em; color: #ebc035; }
 
-nav { position: relative; margin-top: -57px; display: flex; justify-content: space-evenly; background-color: rgba(150, 0, 0, 0.329); word-spacing: 75px; }
+nav { position: relative; margin-top: -37px; display: flex; justify-content: space-evenly; background-color: rgba(150, 0, 0, 0.329); word-spacing: 75px; }
 
 nav ul li { font-weight: bolder; display: inline-block; font-size: 1em; transition: .3s linear; letter-spacing: 5px; }
 
@@ -15,18 +15,18 @@ nav ul li:hover { transform: scale(1.2); }
 
 nav ul li a { color: #ebc035; text-decoration: none; transition: all .3s ease-out; }
 
-nav ul li a:hover { color: white; text-decoration: underline; }
+nav ul li a:hover { color: white; border-bottom: 2px solid #ebc035; }
 
-main { width: 100%; flex-wrap: wrap; }
+main { width: 100%; flex-wrap: wrap; margin-left: auto; margin-right: auto; }
 
 main h2 { background-color: rgba(86, 73, 73, 0.53); color: #ebc035; text-align: center; }
 
 main #figurines, main #shirts, main #towels, main #books, main #mugs { display: flex; align-items: end; margin-top: 10px; margin-bottom: 10px; border-bottom: 2px solid rgba(150, 0, 0, 0.329); position: relative; }
 
-main div { display: inline; }
-
 main span { background-color: black; position: absolute; font-size: .7em; margin: 2px; }
 
-main img { margin: 5px; width: 75%; background-color: rgba(86, 73, 73, 0.329); border-top: 4px solid rgba(150, 0, 0, 0.329); border-bottom: 4px solid rgba(150, 0, 0, 0.329); }
+main img { margin: 5px; width: 80%; background-color: rgba(86, 73, 73, 0.329); border-top: 4px solid rgba(150, 0, 0, 0.329); border-bottom: 4px solid rgba(150, 0, 0, 0.329); transition: transform .5s ease; }
+
+main img:hover { background-color: rgba(228, 213, 213, 0.466); transform: scale(1.2); }
 
 /*# sourceMappingURL=main.css.map */

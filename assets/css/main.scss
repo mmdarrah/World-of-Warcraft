@@ -28,7 +28,7 @@ body {
   width: 100vw;
   height: 80vh;
   margin: 0;
-  top: -57px;
+  top: -35px;
   left: -8px;
   background-size: cover;
 
@@ -45,7 +45,7 @@ body {
 }
 nav{
   position: relative;
-  margin-top: -57px;
+  margin-top: -37px;
   display: flex;
   justify-content: space-evenly;
   background-color: rgba(150, 0, 0, 0.329);
@@ -60,6 +60,7 @@ nav{
       letter-spacing: 5px;
       &:hover{
         transform: scale(1.2);
+
       }
       a{
         color: $bodyColor;
@@ -67,7 +68,8 @@ nav{
         transition: all .3s ease-out;
         &:hover{
           color: white;
-          text-decoration: underline;
+          border-bottom: 2px solid $bodyColor;
+
         }
       }
     }
@@ -76,6 +78,8 @@ nav{
 main{
   width: 100%;
   flex-wrap: wrap;
+  margin-left: auto;
+  margin-right: auto;
   h2{
     background-color: rgba(86, 73, 73, 0.530);
     color: $bodyColor;
@@ -89,13 +93,8 @@ main{
     margin-bottom: 10px;
     border-bottom: 2px solid $headerBGcolor;
     position: relative;
-
   }
-    
-    div{
-      display: inline;
-      
-    }
+
       span{
         background-color: black;
         position: absolute;
@@ -103,12 +102,16 @@ main{
         margin: 2px;
       }
 
-
         img{
           margin: 5px;
-          width: 75%;
+          width: 80%;
           background-color: rgba(86, 73, 73, 0.329);
           border-top: 4px solid $headerBGcolor;
           border-bottom: 4px solid $headerBGcolor;
+          transition: transform .5s ease;
+          &:hover{
+            background-color: rgba(228, 213, 213, 0.466);
+            transform: scale(1.2);
+          }
         }
       }
