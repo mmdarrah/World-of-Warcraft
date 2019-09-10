@@ -1,9 +1,9 @@
-<div class="card-container" id="{{include.id}}" onmouseenter='numbers({{include.id}})'>
+<div class="card-container" id="{{include.id}}" >
   
-        <div class="wrapper">
-          <div class="card">
-            <div class="card__image card__image">
-              <img class="img" src="{{include.imgSrc}}">
+        <div class="wrapper" >
+          <div class="card" onmouseenter='numbers({{include.id}})'>
+            <div class="card__image card__image {{include.id}}">
+              <img class="img" src="{{include.imgSrc}}" >
             </div>
             <div class="card__level">Level -{{include.level}}-</div>
             <div class="card-title">{{include.title}}</div>

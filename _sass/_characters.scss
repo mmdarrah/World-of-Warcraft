@@ -23,14 +23,7 @@ $headerBGcolor: rgba(150, 0, 0, 0.329);
   padding: 0;
 }
 
-body {
-   background: url('../assets/images/back.jpg') no-repeat center center fixed ;
-  background-size: cover;
-  font: 14px/20px 'Playfair Display SC', serif;
-  // width: 1000px;
-  // margin: 0 150px;
-  
-}
+
 
 .page-container{
   position: relative;
@@ -61,7 +54,7 @@ body {
   border-radius: $border-radius-size + 5;
   position: relative;
   text-align: center;
-  box-shadow: -1px 15px 30px -12px black;
+  box-shadow: -1px 15px 30px -12px $gold;
   z-index: 9999;
 }
 
@@ -79,6 +72,7 @@ body {
   margin-bottom: 35px;
   border-top-left-radius: $border-radius-size;
   border-top-right-radius: $border-radius-size;
+  cursor: pointer;
 
   img {
     height:  250px;
@@ -182,7 +176,8 @@ body {
   height: 200px;
   color: $bodyColor;
   align-content: center center;
-  border-bottom: 6px solid black;
+  border-bottom: 6px solid $gold;
+  border-top: 6px solid $gold;
 
 
   h2{
@@ -203,8 +198,8 @@ body {
   height: 30vh;
   color: $bodyColor;
   align-content: center;
-  border-bottom: 6px solid black;
-  border-top: 6px solid black;
+  border-bottom: 6px solid $gold;
+  border-top: 6px solid $gold;
   line-height: 400%;
   
 
@@ -234,7 +229,7 @@ z-index: -22;
   li{
     list-style: none;
     &:hover{
-      opacity: .8;
+      opacity: .5;
       
     }
     
@@ -249,8 +244,8 @@ z-index: -22;
   
   }
   li{
-    border-left: 3px solid black;
-    border-right: 3px solid black;
+    border-left: 3px solid $gold;
+    border-right: 3px solid $gold;
     
   }
 
@@ -269,7 +264,7 @@ z-index: -22;
   width: 100%;
   height: 250px;
   color: $bodyColor;
-  border: 6px solid black;
+  border: 6px solid $gold;
   font-size: 1.2em;
   p{
     width: 80%;
@@ -279,27 +274,314 @@ z-index: -22;
   }
 }
 
-@media screen and (max-width: 768px) {
 
+
+@media screen and (min-width: 375px) {
 
   #characters{
+    // position: absolute;
+    // top: 40rem;
     
-    
-    height: 100px;
+    background-color: $cardColor;
+    width: 100%;
+    height: 200px;
     color: $bodyColor;
     align-content: center center;
-    border: 2px solid black;
+    border-bottom: 6px solid $gold;
+    border-top: 6px solid $gold;
+  
+  
+    h2{
+      font-size: 2.5rem;
+      text-align: center;
+      padding-top: 70px;
+      span{
+        font-size: 4.5rem;
+      }
+    }
+  }
+
+  #how{
+    margin-top: 100px;
+    background-color: $cardColor;
+    width: 100%;
+    height: 40vh;
+    color: $bodyColor;
+    align-content: center;
+    border-bottom: 2px solid $gold;
+    border-top: 2px solid $gold;
+    line-height: 400%;
+    
   
   
     h2{
       font-size: 2rem;
       text-align: center;
-      padding-top: 25px;
+      padding-top: 15px;
       span{
-        font-size: 3rem;
+        font-size: 4rem;
       }
     }
   }
+
+  #types{
+    width: 100%;
+    height: auto;
+    position: relative;
+    top: 16px;
+    z-index: -22;
+    
+    }
+    
+    #ul-how{
+      display: flex;
+    
+      li{
+        list-style: none;
+        &:hover{
+          opacity: .8;
+          
+        }
+        
+      }
+    
+      .li-how img{
+    
+      width: 100%;
+      height: 100%;
+      align-items: center;
+      
+      
+      }
+      li{
+        border-left: 1px solid $gold;
+        border-right: 1px solid $gold;
+        
+      }
+    
+      .img-invisible{
+        opacity: 0;
+        
+      }
+    
+      
+      
+    }
+    
+
+    #how-div{
+      background-color: $cardColor;
+      width: 100%;
+      height: 600px;
+      color: $bodyColor;
+      border: 2px solid $gold;
+      font-size: 1.2em;
+      p{
+        width: 80%;
+        text-align: center;
+        margin: 0 auto;
+        padding-top: 30px;
+      }
+    }
+
+    
+}
+
+
+
+
+
+@media screen and (min-width: 768px) {
+
+
+  #characters{
+    height: 150px;
+    color: $bodyColor;
+    align-content: center center;
+    border: 2px solid $gold;
+    h2{
+      font-size: 3.5rem;
+      text-align: center;
+      padding-top: 45px;
+      span{
+        font-size: 5.5rem;
+      }
+    }
+  }
+  #how{
+    margin-top: 100px;
+    background-color: $cardColor;
+    width: 100%;
+    height: 20vh;
+    color: $bodyColor;
+    align-content: center;
+    border-bottom: 2px solid $gold;
+    border-top: 2px solid $gold;
+    line-height: 400%;
+    
+  
+  
+    h2{
+      font-size: 2rem;
+      text-align: center;
+      padding-top: 10px;
+      span{
+        font-size: 4rem;
+      }
+    }
+  }
+
+
+
+  #types{
+    width: 100%;
+    height: auto;
+    position: relative;
+    top: 16px;
+    z-index: -22;
+    
+    }
+    
+    #ul-how{
+      display: flex;
+    
+      li{
+        list-style: none;
+        &:hover{
+          opacity: .8;
+          
+        }
+        
+      }
+    
+      .li-how img{
+    
+      width: 100%;
+      height: 100%;
+      align-items: center;
+      
+      
+      }
+      li{
+        border-left: 1px solid $gold;
+        border-right: 1px solid $gold;
+        
+      }
+    
+      .img-invisible{
+        opacity: 0;
+        
+      }
+    
+      
+      
+    }
+    
+    #how-div{
+      background-color: $cardColor;
+      width: 100%;
+      height: 300px;
+      color: $bodyColor;
+      border: 2px solid $gold;
+      font-size: 1.2em;
+      p{
+        width: 80%;
+        text-align: center;
+        margin: 0 auto;
+        padding-top: 30px;
+      }
+    }
+
+}
+
+
+
+
+
+@media screen and (min-width: 1024px) {
+
+
+  #how{
+    margin-top: 100px;
+    background-color: $cardColor;
+    width: 100%;
+    height: 15vh;
+    color: $bodyColor;
+    align-content: center;
+    border-bottom: 2px solid $gold;
+    border-top: 2px solid $gold;
+    line-height: 400%;
+    
+  
+  
+    h2{
+      font-size: 2rem;
+      text-align: center;
+      padding-top: 15px;
+      span{
+        font-size: 4rem;
+      }
+    }
+  } 
+  #types{
+    width: 100%;
+    height: auto;
+    position: relative;
+    top: 16px;
+    z-index: -22;
+    
+    }
+    
+    #ul-how{
+      display: flex;
+    
+      li{
+        list-style: none;
+        &:hover{
+          opacity: .8;
+          
+        }
+        
+      }
+    
+      .li-how img{
+    
+      width: 100%;
+      height: auto;
+      align-items: center;
+      
+      
+      }
+      li{
+        border-left: 1px solid $gold;
+        border-right: 1px solid $gold;
+        
+      }
+    
+      .img-invisible{
+        opacity: 0;
+        
+      }
+    
+      
+      
+    }
+    
+
+    #how-div{
+      background-color: $cardColor;
+      width: 100%;
+      height: 300px;
+      color: $bodyColor;
+      border: 2px solid $gold;
+      font-size: 1.2em;
+      p{
+        width: 80%;
+        text-align: center;
+        margin: 0 auto;
+        padding-top: 50px;
+      }
+    }
 
 
 

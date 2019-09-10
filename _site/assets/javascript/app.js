@@ -33,11 +33,13 @@ navSlide();
 
         card.classList.add("card-visible");
         
-        
+       
 
       } else {
 
         card.classList.remove("card-visible");
+
+       
         
       }
     });
@@ -97,61 +99,6 @@ const scene = new ScrollMagic.Scene({
 // .addTo(controller)
 
 
-// let removeNumbers = (id) => {
-
-//  // console.log(id)
-
-//  let stats = document.getElementsByClassName(`${id}`);
-//  // console.log(stats)
- 
-//    Array.prototype.forEach.call(stats, function(stat) {
-//      // console.log(stat);
-//      // let myValue = parseInt(stat.innerHTML);
-//      let myValue = parseInt(stat.getAttribute("statValue"));
-//      console.log(myValue);
-     
-//    // var power = document.getElementsByClassName('power');
-   
-//    // console.log(power)
-   
-//    var power = document.getElementsByClassName(`power ${id}`);
-//    var speed = document.getElementsByClassName(`speed ${id}`);
-//    var cost = document.getElementsByClassName(`cost ${id}`);
-   
-//    anime({
-//      targets: power,
-//      innerHTML: [0, 0],
-//      easing: 'linear',
-//      round: 10,
-//      duration: 1000,
-//      scale: 1.5
-//    });
-//    anime({
-//      targets: speed,
-//      innerHTML: [0, 0],
-//      easing: 'linear',
-//      round: 10,
-//      duration: 1000,
-//      scale: 1.5 
-//    });
-//    anime({
-//      targets: cost,
-//      innerHTML: [0, 0],
-//      easing: 'linear',
-//      round: 10,
-//      duration: 1000,
-//      scale: 1.5
-//    });
-   
-   
-   
-   
-//    });
- 
-  
-// }
-
-
 
 let numbers = (id) => {
   // console.log(id)
@@ -162,16 +109,17 @@ let numbers = (id) => {
   Array.prototype.forEach.call(stats, function(stat) {
     // console.log(stat);
     // let myValue = parseInt(stat.innerHTML);
-    let myValue = parseInt(stat.getAttribute("statValue"));
-    console.log(myValue);
+  let myValue = parseInt(stat.getAttribute("statValue"));
+  // console.log(myValue);
     
-  // var power = document.getElementsByClassName('power');
+  
   
   // console.log(power)
   
-  var power = document.getElementsByClassName(`power ${id}`);
-  var speed = document.getElementsByClassName(`speed ${id}`);
-  var cost = document.getElementsByClassName(`cost ${id}`);
+  let power = document.getElementsByClassName(`power ${id}`);
+  let speed = document.getElementsByClassName(`speed ${id}`);
+  let cost = document.getElementsByClassName(`cost ${id}`);
+  let img = document.getElementsByClassName(`card__image card__image ${id}`);
   
   anime({
     targets: power,
@@ -196,6 +144,10 @@ let numbers = (id) => {
     round: 10,
     duration: 1000,
     scale: 1.5
+  });
+  anime({
+    targets: img,
+    scale:1.1
   });
   
   
