@@ -8,9 +8,9 @@
 
 .card-container { margin: auto; text-align: center; }
 
-.wrapper { padding-top: 40px; padding-bottom: 40px; }
+.wrapper-md { padding-top: 40px; padding-bottom: 40px; }
 
-.wrapper:focus { outline: 0; }
+.wrapper-md:focus { outline: 0; }
 
 .card { background: rgba(255, 5, 5, 0.329); width: 300px; display: inline-block; margin: auto; border-radius: 19px; position: relative; text-align: center; box-shadow: -1px 15px 30px -12px #ebc035; z-index: 9999; }
 
