@@ -18,7 +18,7 @@ body {
     
   }
 
-nav {
+.nav-md {
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -103,7 +103,7 @@ nav {
     justify-content: space-around;
     width: 50%;
   }
-  nav {
+  .nav-md {
     top: 2rem;
   }
 
@@ -126,7 +126,7 @@ nav {
 @media screen and (max-width: 768px) {
   
 
-  nav {
+  .nav-md {
     top: 0rem;
   }
 
@@ -222,7 +222,7 @@ nav {
 @media screen and (max-width: 375px) {
   
 
-  nav {
+  .nav-md {
     top: 0rem;
   }
 
