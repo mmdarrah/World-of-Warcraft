@@ -39,7 +39,7 @@ body {
   width: 300px;
   height: auto;
   top: -2.5rem;
-  right:  1000px;
+  right: 1000px;
 }
 
 .nav-links {
@@ -119,11 +119,8 @@ body {
   .fire{
     display: none;
   }
-
-
-
- 
 }
+
 @media screen and (max-width: 768px) {
   
 
@@ -154,12 +151,10 @@ body {
     right: 0px;
     height: 91.5vh;
     top: 8.2vh;
-    // background-color: $cardColor;
     display: flex;
     flex-direction: column;
     align-items: center;
     width: 100%;
-    // transform: translateX(100%);
     transition: transform 0.5s ease-in;
 
     a {
@@ -193,7 +188,7 @@ body {
     width: 300px;
     height: auto;
     top: 5.5rem;
-    right:  230px;
+    left:  50px;
   }
 
   @keyframes navLinkFade {
