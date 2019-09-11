@@ -32,7 +32,7 @@ nav { position: absolute; top: 0; left: 0; right: 0; z-index: 10; display: flex;
   .burger { display: block; }
   .nav-active { transform: translateX(0%); } }
 
-#header { background-image: url(/images/shop_header_new.jpg); background-position: top; position: relative; width: 100vw; height: 80vh; margin: 0; top: -35px; left: -8px; }
+#header { background-image: url(/images/shop_header_new.jpg); background-position: top; position: relative; width: 110vw; height: 80vh; margin: 0; top: -35px; left: -8px; }
 
 #header span { background-color: rgba(150, 0, 0, 0.329); position: absolute; top: 50%; width: 100%; border-radius: 0%; text-align: center; font-size: 3em; color: #ebc035; }
 

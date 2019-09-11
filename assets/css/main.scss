@@ -121,13 +121,12 @@ nav {
   background-image: url(/images/shop_header_new.jpg);
   background-position: top;
   position: relative;
-  width: 100vw;
+  width: 110vw;
   height: 80vh;
   margin: 0;
   top: -35px;
   left: -8px;
   
-
     span{
       background-color: $headerBGcolor;
       position: absolute;
@@ -166,7 +165,6 @@ nav-container{
         &:hover{
           color: white;
           border-bottom: 2px solid $bodyColor;
-
         }
       }
     }
