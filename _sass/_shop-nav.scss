@@ -1,0 +1,39 @@
+
+
+
+.shop-nav-container{
+    position: relative;
+    margin-top: -35px;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: $headerBGcolor;
+    word-spacing: 75px;
+    color: $bodyColor;
+    font-family: $fontFamily ;
+
+  
+    ul{
+      li{
+        font-weight: bolder;
+        display: inline-block;
+        font-size: 1em;
+        transition: .3s linear;
+        letter-spacing: 5px;
+          &:hover{
+            transform: scale(1.2);
+  
+        }
+        a{
+          color: $bodyColor;
+          text-decoration: none;
+          transition: all .3s ease-out;
+          &:hover{
+            color: white;
+            border-bottom: 2px solid $bodyColor;
+  
+          }
+        }
+      }
+    }
+  }
+  

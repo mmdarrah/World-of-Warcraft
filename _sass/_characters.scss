@@ -28,6 +28,7 @@ $headerBGcolor: rgba(150, 0, 0, 0.329);
 .page-container{
   position: relative;
   top: 5rem;
+  font: 14px/20px 'Playfair Display SC', serif;
 }
 
 .card-container {
@@ -178,7 +179,7 @@ $headerBGcolor: rgba(150, 0, 0, 0.329);
   align-content: center center;
   border-bottom: 6px solid $gold;
   border-top: 6px solid $gold;
-
+  font: 14px/20px 'Playfair Display SC', serif;
 
   h2{
     font-size: 5rem;
