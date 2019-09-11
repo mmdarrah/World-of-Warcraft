@@ -1,10 +1,10 @@
-I"ý<!-- <nav id="nav" class="nav-md">
+I"	<!-- <nav id="nav" class="nav-md">
   <div class="logo">
     
     <img src="../assets/images/logo.png" alt="">
   </div>
   <ul class="nav-links">
-    <li><a href="#"><span>H</span>ome</a></li>
+    <li><a href="../index.html"><span>H</span>ome</a></li>
     <li><a href="../shop.html"><span>S</span>hop</a></li>
     <li><a href="../characters.html"><span>C</span>haracters</a></li>
   </ul>
