@@ -218,8 +218,11 @@ footer { background-color: rgba(150, 0, 0, 0.329); height: auto; letter-spacing:
   .shop-main #figurines, .shop-main #shirts, .shop-main #towels, .shop-main #books, .shop-main #mugs { flex-wrap: wrap; display: flex; align-items: end; margin-top: 10px; margin-bottom: 10px; border-bottom: 2px solid rgba(150, 0, 0, 0.329); position: relative; }
   .shop-main #figurines div, .shop-main #shirts div, .shop-main #towels div, .shop-main #books div, .shop-main #mugs div { transition: transform .5s ease; }
   .shop-main #figurines div:hover, .shop-main #shirts div:hover, .shop-main #towels div:hover, .shop-main #books div:hover, .shop-main #mugs div:hover { transform: scale(1.1); }
-  .shop-main span { background-color: black; position: absolute; font-size: .7em; margin: 2px; z-index: 10; }
-  .shop-main img { flex-wrap: wrap; margin: 5px; height: auto; width: 250px; background-color: rgba(86, 73, 73, 0.103); border-top: 4px solid rgba(150, 0, 0, 0.329); border-bottom: 4px solid rgba(150, 0, 0, 0.329); transition: transform .5s ease; }
-  .shop-main img:hover { background-color: rgba(228, 213, 213, 0.466); } }
+  .shop-main #figurines span, .shop-main #shirts span, .shop-main #towels span, .shop-main #books span, .shop-main #mugs span { background-color: black; position: absolute; font-size: .7em; margin: 2px; z-index: 10; }
+  .shop-main #figurines img, .shop-main #shirts img, .shop-main #towels img, .shop-main #books img, .shop-main #mugs img { flex-wrap: wrap; margin-left: 10%; margin-right: 10%; width: 75%; height: auto; background-color: rgba(86, 73, 73, 0.103); border-top: 4px solid rgba(150, 0, 0, 0.329); border-bottom: 4px solid rgba(150, 0, 0, 0.329); transition: transform .5s ease; }
+  .shop-main #figurines img:hover, .shop-main #shirts img:hover, .shop-main #towels img:hover, .shop-main #books img:hover, .shop-main #mugs img:hover { background-color: rgba(228, 213, 213, 0.466); }
+  footer { background-color: rgba(150, 0, 0, 0.329); height: auto; letter-spacing: 12px; text-align: center; } }
 
 html { scroll-behavior: smooth; }
+
+/*# sourceMappingURL=main.css.map */
