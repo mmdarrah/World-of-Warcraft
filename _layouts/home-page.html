@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: "en-US" }}">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+    <title>{{ page.title }} - {{ site.title }}</title>
+    <link rel="stylesheet" href="{{ "/assets/css/main.css" | relative_url }}">
+    
+  </head>
+  <body>
+    {{ content}}
+    {% include title.html %}
+    {% include home-page-nav.html %} 
+    {% include banner.html %} 
+    {% include faction.html %} 
+    {% include classes.html %} 
+    <div class="video-container">
+      <video autoplay loop id="video-background" muted plays-inline>
+        <source src="../assets/video/wow.mp4" type="video/mp4">
+      </video>
+
+    </div>
+    <script type="text/javascript" src="/assets/javascript/main.js" ></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.2.0/anime.min.js"></script>
+    
+  </body>
+</html>
