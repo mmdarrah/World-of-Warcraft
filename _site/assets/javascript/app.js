@@ -104,17 +104,12 @@ let numbers = (id) => {
   // console.log(id)
 
   let stats = document.getElementsByClassName(`${id}`);
-// console.log(stats)
+  // console.log(stats)
 
-  Array.prototype.forEach.call(stats, function(stat) {
-    // console.log(stat);
-    // let myValue = parseInt(stat.innerHTML);
-  let myValue = parseInt(stat.getAttribute("statValue"));
-  // console.log(myValue);
-    
-  
-  
-  // console.log(power)
+  let poweValue =(stats[1].getAttribute("statValue")) 
+  let speedValue =(stats[2].getAttribute("statValue")) 
+  let costValue =(stats[3].getAttribute("statValue")) 
+
   
   let power = document.getElementsByClassName(`power ${id}`);
   let speed = document.getElementsByClassName(`speed ${id}`);
@@ -123,7 +118,7 @@ let numbers = (id) => {
   
   anime({
     targets: power,
-    innerHTML: [0, myValue],
+    innerHTML: [0, poweValue],
     easing: 'linear',
     round: 10,
     duration: 1000,
@@ -131,7 +126,7 @@ let numbers = (id) => {
   });
   anime({
     targets: speed,
-    innerHTML: [0, myValue],
+    innerHTML: [0, speedValue],
     easing: 'linear',
     round: 10,
     duration: 1000,
@@ -139,7 +134,7 @@ let numbers = (id) => {
   });
   anime({
     targets: cost,
-    innerHTML: [0, myValue],
+    innerHTML: [0, costValue],
     easing: 'linear',
     round: 10,
     duration: 1000,
@@ -151,11 +146,6 @@ let numbers = (id) => {
   });
   
   
-  
-  
-  });
-
-
 
 }
 

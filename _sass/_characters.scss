@@ -265,14 +265,23 @@ z-index: -22;
   color: $bodyColor;
   border: 6px solid $gold;
   font-size: 1.2em;
+  margin-bottom: 50px;
   p{
     width: 80%;
     text-align: center;
     margin: 0 auto;
     padding-top: 30px;
+    
   }
 }
-
+footer{
+  background-color: $cardColor;
+  height: auto;
+  letter-spacing: 12px;
+  text-align: center;
+  border-top: 2px solid $gold;
+  color: $gold;
+}
 
 
 @media screen and (min-width: 375px) {
@@ -371,7 +380,7 @@ z-index: -22;
     #how-div{
       background-color: $cardColor;
       width: 100%;
-      height: 600px;
+      height: 900px;
       color: $bodyColor;
       border: 2px solid $gold;
       font-size: 1.2em;
@@ -411,7 +420,7 @@ z-index: -22;
     margin-top: 100px;
     background-color: $cardColor;
     width: 100%;
-    height: 20vh;
+    height: 22vh;
     color: $bodyColor;
     align-content: center;
     border-bottom: 2px solid $gold;
@@ -479,7 +488,7 @@ z-index: -22;
     #how-div{
       background-color: $cardColor;
       width: 100%;
-      height: 300px;
+      height: 430px;
       color: $bodyColor;
       border: 2px solid $gold;
       font-size: 1.2em;
@@ -570,7 +579,7 @@ z-index: -22;
     #how-div{
       background-color: $cardColor;
       width: 100%;
-      height: 300px;
+      height: 350px;
       color: $bodyColor;
       border: 2px solid $gold;
       font-size: 1.2em;

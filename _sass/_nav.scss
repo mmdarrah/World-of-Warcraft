@@ -284,7 +284,8 @@ body {
     width: 200px;
     height: auto;
     top: 4.5rem;
-    right:  90px;
+    left:  90px;
+    z-index: 12;
   }
 
   @keyframes navLinkFade {
