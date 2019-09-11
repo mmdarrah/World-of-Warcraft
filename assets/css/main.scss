@@ -12,15 +12,8 @@ $fontFamily: 'Playfair Display SC', serif;
 @import "./shop-nav";
 @import "./shop-header";
 @import "./shop-main";
+@import"./home-page";
 
 html{
   scroll-behavior: smooth;
 }
-
-
-
-
-
-
-
-@import"./home-page";

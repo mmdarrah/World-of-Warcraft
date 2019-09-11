@@ -1,32 +1,33 @@
+.shop-main-container{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(1fr));  
+
+
 .shop-main{
-  
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(1fr, 200px));
-    grid-gap: 30px;
     justify-content: center;
     font-family: $fontFamily;
     margin-left: 1%;
     margin-right: 1%;
     color: $bodyColor;
-    h2{
+      h2{
       background-color: $backgroundColor2;
       text-align: center;
     }
     
     #figurines, #shirts, #towels, #books, #mugs{
-      flex-wrap: wrap;
       display: flex;
+      flex-wrap: wrap;
       align-items: end;
       margin-top: 10px;
       margin-bottom: 10px;
       border-bottom: 2px solid $headerBGcolor;
       position: relative;
         div{
-          transition: transform .5s ease;
-          &:hover{
-            transform: scale(1.1);
-          }
+        transition: transform .5s ease;
+        &:hover{
+        transform: scale(1.1);
         }
+      }
   }
 
         span{
@@ -37,25 +38,101 @@
           z-index: 10;
         }
   
-          img{
-            flex-wrap: wrap;
-            margin: 5px;
-            height: 250px;
-            width: auto;
-            background-color: rgba(86, 73, 73, 0.103);
-            border-top: 4px solid $headerBGcolor;
-            border-bottom: 4px solid $headerBGcolor;
-            transition: transform .5s ease;
+        img{
+          flex-wrap: wrap;
+          margin: 25px;
+          height: 250px;
+          width: auto;
+          background-color: rgba(86, 73, 73, 0.103);
+          border-top: 4px solid $headerBGcolor;
+          border-bottom: 4px solid $headerBGcolor;
+          transition: transform .5s ease;
             &:hover{
               background-color: rgba(228, 213, 213, 0.466);
               
             }
           }
-        }
+}
   
-        footer{
-          background-color: $headerBGcolor;
-          height: auto;
-          letter-spacing: 12px;
-          text-align: center;
-        }
+footer{
+  background-color: $headerBGcolor;
+  height: auto;
+  letter-spacing: 12px;
+  text-align: center;
+}
+
+@media screen and (min-width: 375px) {
+  #figurines, #shirts, #towels, #books, #mugs{
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-bottom: 2px solid $headerBGcolor;
+    position: relative;
+
+      img{
+        flex-wrap: wrap;
+        margin: 5px;
+        height: auto;
+        width: 150px;
+        background-color: rgba(86, 73, 73, 0.103);
+        border-top: 4px solid $headerBGcolor;
+        border-bottom: 4px solid $headerBGcolor;
+        transition: transform .5s ease;
+      }
+   }
+}
+@media screen and (min-width: 768px) {
+  #figurines, #shirts, #towels, #books, #mugs{
+
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-bottom: 2px solid $headerBGcolor;
+    position: relative;
+
+
+      img{
+        flex-wrap: wrap;
+        margin: 5px;
+        height: auto;
+        width: 250px;
+        background-color: rgba(86, 73, 73, 0.103);
+        border-top: 4px solid $headerBGcolor;
+        border-bottom: 4px solid $headerBGcolor;
+        transition: transform .5s ease;
+      }
+   }
+}
+
+@media screen and (min-width: 1024px) {
+  #figurines, #shirts, #towels, #books, #mugs{
+
+    flex-wrap: wrap;
+    justify-content: center;
+    display: flex;
+    align-content: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-bottom: 2px solid $headerBGcolor;
+    position: relative;
+
+      
+      img{
+        flex-wrap: wrap;
+        margin: 40px;
+        height: 250px;
+        width: auto;
+        background-color: rgba(86, 73, 73, 0.103);
+        border-top: 4px solid $headerBGcolor;
+        border-bottom: 4px solid $headerBGcolor;
+        transition: transform .5s ease;
+      }
+    }
+  }
+}
