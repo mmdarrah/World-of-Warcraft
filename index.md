@@ -1,6 +1,5 @@
 ---
-layout: default
-title: "Happy Jekylling!"
+layout: home-page
 ---
 
 
