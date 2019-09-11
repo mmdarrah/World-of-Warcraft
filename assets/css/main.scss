@@ -8,7 +8,6 @@ $fontColor: yellow;
 $fontFamily: 'Playfair Display SC', serif;
 
 @import "./characters";
-
 @import "./nav";
 @import "./shop-nav";
 @import "./shop-header";
@@ -24,3 +23,4 @@ html{
 
 
 
+@import"./home-page";
