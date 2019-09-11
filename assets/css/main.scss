@@ -1,11 +1,22 @@
 ---
 ---
+$backgroundColor2: rgba(86, 73, 73, 0.530);
+$bodyColor: rgb(235, 192, 53);
+$headerBGcolor: rgba(150, 0, 0, 0.329);
+$cardColor: rgba(255, 5, 5, 0.329);
+$fontColor: yellow;
+$fontFamily: 'Playfair Display SC', serif;
 
 // @import "main";
 
 @import "./characters";
 
 @import "./nav";
+@import "./shop-nav";
+@import "./shop-header";
+@import "./shop-main";
+
+
 
 
 
