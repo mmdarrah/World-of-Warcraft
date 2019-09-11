@@ -3,7 +3,8 @@
 
 .shop-nav-container{
     position: relative;
-    margin-top: -35px;
+    height: 10vh;
+    top: -35px;
     display: flex;
     justify-content: space-evenly;
     background-color: $headerBGcolor;
@@ -19,6 +20,7 @@
         font-size: 1em;
         transition: .3s linear;
         letter-spacing: 5px;
+        margin-top: 12px;
           &:hover{
             transform: scale(1.2);
   

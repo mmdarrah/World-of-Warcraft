@@ -7,14 +7,16 @@ $cardColor: rgba(255, 5, 5, 0.329);
 $fontColor: yellow;
 $fontFamily: 'Playfair Display SC', serif;
 
-// @import "main";
-
 @import "./characters";
 
 @import "./nav";
 @import "./shop-nav";
 @import "./shop-header";
 @import "./shop-main";
+
+html{
+  scroll-behavior: smooth;
+}
 
 
 

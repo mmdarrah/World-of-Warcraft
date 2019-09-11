@@ -19,7 +19,7 @@ $fontFamily: 'Playfair Display SC', serif;
     
   
       span{
-        // background-color: $headerBGcolor;
+        font-family: $fontFamily;
         position: absolute;
         top: 50%;
         width: 100%;
@@ -27,5 +27,6 @@ $fontFamily: 'Playfair Display SC', serif;
         text-align: center;
         font-size: 3em;
         color: $bodyColor;
+        text-shadow: 2px 1px 2px $bodyColor;
     }
   }
