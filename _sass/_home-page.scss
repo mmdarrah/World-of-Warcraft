@@ -69,8 +69,6 @@ body {
 }
 .video-container {
   background-color: rgba(55, 55, 57, 0.19);
-  width: 100vw;
-  height: 100vh;
   z-index: 1;
 }
 
@@ -114,27 +112,27 @@ article {
   width: 100%;
   margin: 0 auto;
   position: fixed;
-  top: 72vh;
+  top: 68vh;
   height: 28vh;
   display: grid;
   justify-items: center;
   grid-template-columns: 1fr 1fr 1fr;
   z-index: 100;
   max-width: 100%;
-  
   :after,
   .row:after {
     content: "";
     display: table;
     clear: both;
   }
-
+  
   color: $bodyColor;
   background: linear-gradient(transparent, transparent);
-
+  
   text-align: center;
   transition: ease-in-out all 1.5s;
   h2{
+    color: $bodyColor;
     transition: ease-in-out all 1.5s;
     text-align: center;
     border-radius: 50%;
@@ -152,6 +150,7 @@ article {
     height: 130px;
     border-radius: 50%;
     border: 5px double;
+    color: $bodyColor;
     border-color:  $bodyColor  #ff0000  $bodyColor #0000ff;
     background-color: transparent;
     transition: border 2s;
@@ -201,13 +200,14 @@ article {
 }
 
 .nav-up{
-  top: 0%;
+  top: -5%;
   width: 100vw;
   height: 20vh;
 }
 
 .firstpage-nav-btn{
-  margin-top: 70%;
+
+  margin-top: 70% !important;
 }
 // _________________Banner_________________
 .banner-container{
@@ -296,25 +296,32 @@ article {
         box-shadow: 0px 0px 30px #fdec6e, inset 0px 0px 10px #fdec6e;
       }
     } 
-}
+  }
 }
 
 //______________________Classes____________________
 .classes-container{
-  background-color: rgba(245, 117, 117, 0.456);
-  background-image: url(../bilder/pic.jpg);
+  background-color: rgba(0, 0, 0, 0.806);
+  // background-image: url(../bilder/pic.jpg);
   background-size: cover;
   width: 100vw;
   height: 100vh;
+  .spin-img{
+    background-color: rgba(0, 0, 0, 0.806);
 
-  & img{
-    z-index: 2;
-    margin: 30.5px;
-    position: absolute;
-    &:hover{
-      cursor: pointer;
-      transform: scale(1.25);
-      box-shadow: 0px 0px 30px #fdec6e, inset 0px 0px 10px #fdec6e;
+    & img{
+      z-index: 2;
+      position: absolute;
+      display: inline-block;
+      left: 20%;
+      margin-top: 7.5%;
+      box-shadow: 0px 0px 1px #fdec6e, inset 0px 0px 10px #fdec6e;
+      &:hover{
+        cursor: pointer;
+        transform: scale(1.25);
+        box-shadow: 0px 0px 30px #fdec6e, inset 0px 0px 10px #fdec6e;
+        animation-play-state: paused;
+      }
     }
   }
 }
@@ -323,7 +330,6 @@ article {
       z-index: 20;
       background-color: rgba(0, 0, 0, 0.806);
       color:$bodyColor;
-      position: relative;
       top: 0vh;
       left: 0vh;
       & h2{
@@ -333,20 +339,68 @@ article {
         border-top: 10px solid $bodyColor;
         border-bottom: 10px solid $bodyColor;
         margin: 0% auto;
-    text-shadow: 0px 0px 30px #fdec6e;
+        text-shadow: 0px 0px 30px #fdec6e;
         
       }
       .choose-class{
         text-align: center;
         width: 100vw;
         height: 25vh;
+        padding-top: 100px;
+        padding-bottom: 100px;
+        
       }
     }
-
-
-.headerVisible {
-  opacity: 1;
-  transform: translateX(0);
+    .classes-info{
+      position: relative;
+      left: 25%;
+      top: 25%;
+      img{
+        transition: all ease-in-out 1.5s;
+        display: inline-block;
+      position: relative;
+        margin: 2px; 
+        opacity: 0;
+        &:hover{
+          cursor: pointer;
+          transform: scale(1.25);
+          box-shadow: 0px 0px 30px #fdec6e, inset 0px 0px 10px #fdec6e;
+          animation-play-state: paused;
+        }
+      }
+    }
+    
+    #info-div{
+      
+      position: relative;
+      left: 25%;
+      top: 35%;
+      width: 45vw;
+      height: 10vh;
+      background-color: transparent;
+      opacity: 0;
+      transition: all 1.5s ease-in-out;
+      button{
+        padding: 2%;
+        color: $bodyColor;
+        background-color: transparent;
+        box-shadow: 0px 0px 10px #fdec6e, inset 0px 0px 10px #fdec6e;
+        margin-bottom: 1%;
+        &:hover{
+          cursor: pointer;
+          box-shadow: 0px 0px 30px #fdec6e, inset 0px 0px 10px #fdec6e;
+        }
+      }
+      p{
+        width: 45vw;
+        height: 10vh;
+        font-size: 1.3rem;
+        color: $bodyColor;
+      }
+    }
+    .headerVisible {
+      opacity: 1;
+      transform: translateX(0);
 }
 
 
