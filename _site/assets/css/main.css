@@ -275,7 +275,7 @@ article h1 p { color: #d0d0d0; font-family: sans-serif; letter-spacing: 0; font-
 
 .wrapper [class*="column-"] { float: left; padding: 1em; min-height: 1px; }
 
-.nav-up { top: -5%; width: 100vw; height: 20vh; }
+.nav-up { top: -1%; width: 100vw; height: 20vh; }
 
 .firstpage-nav-btn { margin-top: 70% !important; }
 
