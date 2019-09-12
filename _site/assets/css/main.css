@@ -241,7 +241,7 @@ body { margin: 0% auto; overflow-x: hidden; font-family: "Playfair Display SC", 
 
 .filler { width: 100vw; height: 100vh; }
 
-.video-container { background-color: rgba(55, 55, 57, 0.19); width: 100vw; height: 100vh; z-index: 1; }
+.video-container { background-color: rgba(55, 55, 57, 0.19); z-index: 1; }
 
 #video-background { position: fixed; right: 0; bottom: 0; min-width: 100%; min-height: 100%; width: auto; height: auto; z-index: -100; }
 
@@ -251,15 +251,15 @@ article h1 { position: absolute; width: 45vw; font-size: 56px; letter-spacing: 3
 
 article h1 p { color: #d0d0d0; font-family: sans-serif; letter-spacing: 0; font-weight: 500; font-size: 24px; line-height: 24px; text-shadow: 1px 1px #c77e19; text-transform: none; }
 
-.wrapper { width: 100%; margin: 0 auto; position: fixed; top: 72vh; height: 28vh; display: grid; justify-items: center; grid-template-columns: 1fr 1fr 1fr; z-index: 100; max-width: 100%; color: #c77e19; background: linear-gradient(transparent, transparent); text-align: center; transition: ease-in-out all 1.5s; }
+.wrapper { width: 100%; margin: 0 auto; position: fixed; top: 68vh; height: 28vh; display: grid; justify-items: center; grid-template-columns: 1fr 1fr 1fr; z-index: 100; max-width: 100%; color: #c77e19; background: linear-gradient(transparent, transparent); text-align: center; transition: ease-in-out all 1.5s; }
 
 .wrapper :after, .wrapper .row:after { content: ""; display: table; clear: both; }
 
-.wrapper h2 { transition: ease-in-out all 1.5s; text-align: center; border-radius: 50%; margin-top: 101%; z-index: 10; box-shadow: 0px 0px 30px #fdec6e, inset 0px 0px 10px #fdec6e; padding: 3px; background-color: rgba(255, 255, 255, 0.19); }
+.wrapper h2 { color: #c77e19; transition: ease-in-out all 1.5s; text-align: center; border-radius: 50%; margin-top: 101%; z-index: 10; box-shadow: 0px 0px 30px #fdec6e, inset 0px 0px 10px #fdec6e; padding: 3px; background-color: rgba(255, 255, 255, 0.19); }
 
 .wrapper h2:hover { cursor: pointer; }
 
-.wrapper .border-style { width: 130px; height: 130px; border-radius: 50%; border: 5px double; border-color: #c77e19 #ff0000 #c77e19 #0000ff; background-color: transparent; transition: border 2s; position: relative; transition: 2500ms; -webkit-transition: 2500ms; -moz-transition: 2500ms; -o-transition: 2500ms; }
+.wrapper .border-style { width: 130px; height: 130px; border-radius: 50%; border: 5px double; color: #c77e19; border-color: #c77e19 #ff0000 #c77e19 #0000ff; background-color: transparent; transition: border 2s; position: relative; transition: 2500ms; -webkit-transition: 2500ms; -moz-transition: 2500ms; -o-transition: 2500ms; }
 
 .wrapper .border-style:hover { box-shadow: 0px 0px 30px #fdec6e, inset 0px 0px 10px #fdec6e; border: 5px dotted; cursor: pointer; -moz-transform: rotate(-360deg); -o-transform: rotate(-360deg); -webkit-transform: rotate(-360deg); transition: 2500ms; -webkit-transition: 2500ms; -moz-transition: 2500ms; -o-transition: 2500ms; }
 
@@ -275,9 +275,9 @@ article h1 p { color: #d0d0d0; font-family: sans-serif; letter-spacing: 0; font-
 
 .wrapper [class*="column-"] { float: left; padding: 1em; min-height: 1px; }
 
-.nav-up { top: 0%; width: 100vw; height: 20vh; }
+.nav-up { top: -5%; width: 100vw; height: 20vh; }
 
-.firstpage-nav-btn { margin-top: 70%; }
+.firstpage-nav-btn { margin-top: 70% !important; }
 
 .banner-container { width: 100vw; height: 50vh; color: #c77e19; background-color: black; text-align: center; }
 
@@ -303,17 +303,33 @@ article h1 p { color: #d0d0d0; font-family: sans-serif; letter-spacing: 0; font-
 
 .faction-container .faction .btn-horde-container:hover { cursor: pointer; box-shadow: 0px 0px 30px #fdec6e, inset 0px 0px 10px #fdec6e; }
 
-.classes-container { background-color: rgba(245, 117, 117, 0.456); background-image: url(../bilder/pic.jpg); background-size: cover; width: 100vw; height: 100vh; }
+.classes-container { background-color: rgba(0, 0, 0, 0.806); background-size: cover; width: 100vw; height: 100vh; }
 
-.classes-container img { z-index: 2; margin: 30.5px; position: absolute; }
+.classes-container .spin-img { background-color: rgba(0, 0, 0, 0.806); }
 
-.classes-container img:hover { cursor: pointer; transform: scale(1.25); box-shadow: 0px 0px 30px #fdec6e, inset 0px 0px 10px #fdec6e; }
+.classes-container .spin-img img { z-index: 2; position: absolute; display: inline-block; left: 20%; margin-top: 7.5%; box-shadow: 0px 0px 1px #fdec6e, inset 0px 0px 10px #fdec6e; }
 
-.class-logo { z-index: 20; background-color: rgba(0, 0, 0, 0.806); color: #c77e19; position: relative; top: 0vh; left: 0vh; }
+.classes-container .spin-img img:hover { cursor: pointer; transform: scale(1.25); box-shadow: 0px 0px 30px #fdec6e, inset 0px 0px 10px #fdec6e; animation-play-state: paused; }
+
+.class-logo { z-index: 20; background-color: rgba(0, 0, 0, 0.806); color: #c77e19; top: 0vh; left: 0vh; }
 
 .class-logo h2 { font-size: 5rem; position: relative; top: 15%; border-top: 10px solid #c77e19; border-bottom: 10px solid #c77e19; margin: 0% auto; text-shadow: 0px 0px 30px #fdec6e; }
 
-.class-logo .choose-class { text-align: center; width: 100vw; height: 25vh; }
+.class-logo .choose-class { text-align: center; width: 100vw; height: 25vh; padding-top: 100px; padding-bottom: 100px; }
+
+.classes-info { position: relative; left: 25%; top: 25%; }
+
+.classes-info img { transition: all ease-in-out 1.5s; display: inline-block; position: relative; margin: 2px; opacity: 0; }
+
+.classes-info img:hover { cursor: pointer; transform: scale(1.25); box-shadow: 0px 0px 30px #fdec6e, inset 0px 0px 10px #fdec6e; animation-play-state: paused; }
+
+#info-div { position: relative; left: 25%; top: 35%; width: 45vw; height: 10vh; background-color: transparent; opacity: 0; transition: all 1.5s ease-in-out; }
+
+#info-div button { padding: 2%; color: #c77e19; background-color: transparent; box-shadow: 0px 0px 10px #fdec6e, inset 0px 0px 10px #fdec6e; margin-bottom: 1%; }
+
+#info-div button:hover { cursor: pointer; box-shadow: 0px 0px 30px #fdec6e, inset 0px 0px 10px #fdec6e; }
+
+#info-div p { width: 45vw; height: 10vh; font-size: 1.3rem; color: #c77e19; }
 
 .headerVisible { opacity: 1; transform: translateX(0); }
 
